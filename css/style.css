@@ -1,3 +1,59 @@
+/**GLOBAL **/
+
+* {box-sizing: border-box;}
+html {font-size: 62.5%;}
+body {
+        font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
+	line-height: 2;
+	margin: 0;
+	color: #6a5c6b;
+	background-image: url(../img/fond.svg);
+	background-attachment: fixed;
+}
+h1, h2, h3 {font-family: 'Luckiest Guy', cursive;}
+a {}
+img {max-width: 100%;}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+ul {
+	padding : 0;
+	list-style: none;
+}
+
+/**GLOBAL**/
+
 @media all and (min-width: 480px) and (max-width: 720px) {
+
+header {
+    display: flex;
+}
+
+header img {
+	width: 5rem;
+	height: 15rem;
+}
+
+#menu {
+	margin-left: 35px;
+	margin-top: 5px;
+}
+
+#pp {
+	width: 11rem;
+	height: 15rem;
+	border-radius: 100%;
+	margin-right: 440px;
+}
     
 }
