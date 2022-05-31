@@ -55,5 +55,10 @@ header img {
 	border-radius: 100%;
 	margin-right: 440px;
 }
+
+#recetteMastu img {
+	height: 20rem;
+	width: 30rem;
+}
     
 }
